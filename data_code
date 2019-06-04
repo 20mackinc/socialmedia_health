@@ -36,3 +36,7 @@ plt.xlabel('Time')
 plt.ylabel('Minutes Deep Sleep')
 
 fitbit_data.loc[['Minutes Asleep', 'Minutes Awake', 'Minutes REM Sleep', 'Minutes Light Sleep', 'Minutes Deep Sleep']]
+
+
+(Also this is the same code just the version that it came out in afte downloading it as python code from Jupyter Notebook)
+#!/usr/bin/env python # coding: utf-8 # In[70]: import matplotlib.pyplot as plt import pandas as pd import numpy as np get_ipython().run_line_magic('matplotlib', 'inline') fitbit_heartrate = pd.read_csv("/Users/charlottemackin/Documents/GitHub/fitbit/4_26_lackner.csv") print(fitbit_heartrate.columns) # In[71]: fitbit_heartrate.plot() plt.xlabel('Time') plt.ylabel('Heart Rate') # In[72]: fitbit_data = pd.read_csv("/Users/charlottemackin/Desktop/fitbit/fitbit_lacknerdata.csv", usecols = []) print(fitbit_data.columns) fitbit_data.head(30) # In[73]: fitbit_data_idk = fitbit_data.set_index('Body') # In[ ]: fitbit_data.plot() plt.xlabel('Time') plt.ylabel('Minutes Asleep') # In[ ]: fitbit_data.plot() plt.xlabel('Time') plt.ylabel('Minutes Awake') # In[ ]: fitbit_data.plot() plt.xlabel('Time') plt.ylabel('Minutes REM Sleep') # In[ ]: fitbit_data.plot() plt.xlabel('Time') plt.ylabel('Minutes Light Sleep') # In[ ]: fitbit_data.plot() plt.xlabel('Time') plt.ylabel('Minutes Deep Sleep') # In[ ]: fitbit_data.loc[['Minutes Asleep', 'Minutes Awake', 'Minutes REM Sleep', 'Minutes Light Sleep', 'Minutes Deep Sleep']] # In[ ]: # In[ ]:
