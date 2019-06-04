@@ -1,0 +1,38 @@
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+%matplotlib inline
+fitbit_heartrate = pd.read_csv("/Users/charlottemackin/Documents/GitHub/fitbit/4_26_lackner.csv")
+print(fitbit_heartrate.columns)
+
+fitbit_heartrate.plot()
+plt.xlabel('Time')
+plt.ylabel('Heart Rate')
+
+fitbit_data = pd.read_csv("/Users/charlottemackin/Desktop/fitbit/fitbit_lacknerdata.csv", usecols = [])
+print(fitbit_data.columns)
+fitbit_data.head(30)
+
+fitbit_data_idx = fitbit_data.set_index('Body')
+
+fitbit_data.plot()
+plt.xlabel('Time')
+plt.ylabel('Minutes Asleep')
+
+fitbit_data.plot()
+plt.xlabel('Time')
+plt.ylabel('Minutes Awake')
+
+fitbit_data.plot()
+plt.xlabel('Time')
+plt.ylabel('Minutes REM Sleep')
+
+fitbit_data.plot()
+plt.xlabel('Time')
+plt.ylabel('Minutes Light Sleep')
+
+fitbit_data.plot()
+plt.xlabel('Time')
+plt.ylabel('Minutes Deep Sleep')
+
+fitbit_data.loc[['Minutes Asleep', 'Minutes Awake', 'Minutes REM Sleep', 'Minutes Light Sleep', 'Minutes Deep Sleep']]
