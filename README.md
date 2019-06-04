@@ -1,9 +1,9 @@
 # socialmedia_health
 ## Analyzing the effects of social media on teenage mental and physical well-being.
 
-[Link used to work with matplotlib functions](https://towardsdatascience.com/a-guide-to-pandas-and-matplotlib-for-data-exploration-56fad95f951c)
-[Link used to help analyze fitbit data](https://mode.com/python-tutorial/pandas-dataframe/)
-[Link used to learn data subsets and how to organize my files](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c)
+1. [Link used to work with matplotlib functions](https://towardsdatascience.com/a-guide-to-pandas-and-matplotlib-for-data-exploration-56fad95f951c)
+2. [Link used to help analyze fitbit data](https://mode.com/python-tutorial/pandas-dataframe/)
+3. [Link used to learn data subsets and how to organize my files](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c)
 
 
 ## The Process
